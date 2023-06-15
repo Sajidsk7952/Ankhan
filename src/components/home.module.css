@@ -1,0 +1,80 @@
+.container{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.title{
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+.intro{
+    /* width: 40%; */
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    /* padding: 10px; */
+    font-size: 2rem;
+}
+.intro span{
+    padding: 5px;
+}
+.description{
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+.newRoom h3{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+.create{
+    padding: 1rem 2.5rem;
+    background-color: rgb(177,205,255);
+    border: 1px solid rgb(177,205,255);
+    border-radius: 5px;
+    font-size: 1.13rem;
+    cursor: pointer;
+}
+.create:hover{
+    background-color: rgb(132, 171, 239);
+}
+.form{
+    margin: 20px 0px;
+    font-size: 1.2rem;
+}
+.form label{
+    font-size: 1.2rem;
+    display: block;
+}
+.form input{
+    font-size: 1.1rem;
+    padding: 0.7rem 3rem;
+}
+.form button{
+    padding: 0.8rem 2rem;
+    margin: 20px;
+    background-color: rgb(177,205,255);
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+.form button:hover{
+    background-color: rgb(100, 144, 219);
+}
+.images{
+    margin-top: 50px;
+    /* width: 1000px; */
+    /* max-height: 400px; */
+    object-fit: cover;
+    max-height: 500px;
+}
+.images img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+}
